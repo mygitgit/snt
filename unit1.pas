@@ -24,6 +24,7 @@ type
     procedure Button3Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
+    procedure Label1Click(Sender: TObject);
     procedure StringGrid1Selection(Sender: TObject; aCol, aRow: Integer);
   private
     { private declarations }
@@ -157,6 +158,11 @@ end;
 procedure TForm1.FormDestroy(Sender: TObject);
 begin
   CloseFile(LockFile);
+end;
+
+procedure TForm1.Label1Click(Sender: TObject);
+begin
+
 end;
 
 

@@ -83,8 +83,9 @@ object Form1: TForm1
     Top = 27
     Width = 278
     AutoSize = False
-    Caption = 'Hallo Willy!'#10#10'Hier kannst du die Linux-Installation deines Notebooks warten.'
+    Caption = 'Hier kann man die Snapshots verwalten'
     ParentColor = False
     WordWrap = True
+    OnClick = Label1Click
   end
 end
